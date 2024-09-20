@@ -25,14 +25,14 @@
     />
 
     <!-- Title -->
-    <title>Daniels</title>
+    <title>ال حسن للتشطيبات</title>
   </head>
 
   <body>
     <!-- Start Nav Bar -->
     <!-- English Navigation -->
     <nav
-      class="navbar navbar-expand-md fixed-top bg-black bg-opacity-75 navbar-dark translate-en"
+      class="navbar navbar-expand-md fixed-top bg-black bg-opacity-75 navbar-dark translate-en d-none"
       id="navbar-en"
       aria-label="English navigation"
     >
@@ -41,17 +41,28 @@
           El Hassan
         </a>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle English navigation menu"
-        >
-          <i class="fa-solid fa-bars text-white"></i>
-        </button>
+        <div class="d-flex align-items-center gap-2">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContentArabic"
+            aria-controls="navbarSupportedContentArabic"
+            aria-expanded="false"
+            aria-label="Toggle Arabic navigation menu"
+          >
+            <i class="fa-solid fa-bars text-white"></i>
+          </button>
+          <div class="d-block d-md-none border-2 border-light">
+            <button
+              id="btn-arabic2"
+              class="btn btn-outline-light"
+              aria-label="Switch to Arabic"
+            >
+              عربي
+            </button>
+          </div>
+        </div>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul
@@ -89,8 +100,8 @@
               <a class="nav-link mx-1" href="#contact">Contact</a>
             </li>
 
-            <li class="nav-item my-2 my-md-0 d-flex align-items-center">
-              <div class="border-2 border-light">
+            <li class="my-2 my-md-0 d-flex align-items-center">
+              <div class="d-none d-md-inline-block border-2 border-light">
                 <button
                   id="btn-arabic"
                   class="btn btn-outline-light"
@@ -116,17 +127,28 @@
           الحسن
         </a>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContentArabic"
-          aria-controls="navbarSupportedContentArabic"
-          aria-expanded="false"
-          aria-label="Toggle Arabic navigation menu"
-        >
-          <i class="fa-solid fa-bars text-white"></i>
-        </button>
+        <div class="d-flex align-items-center gap-2">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContentArabic"
+            aria-controls="navbarSupportedContentArabic"
+            aria-expanded="false"
+            aria-label="Toggle Arabic navigation menu"
+          >
+            <i class="fa-solid fa-bars text-white"></i>
+          </button>
+          <div class="d-block d-md-none border-2 border-light">
+            <button
+              id="btn-english2"
+              class="btn btn-outline-light"
+              aria-label="Switch to English"
+            >
+              English
+            </button>
+          </div>
+        </div>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContentArabic">
           <ul
@@ -165,7 +187,7 @@
             </li>
 
             <li class="nav-item my-2 my-md-0 d-flex align-items-center">
-              <div class="border-2 border-light">
+              <div class="d-none d-md-inline-block border-2 border-light">
                 <button
                   id="btn-english"
                   class="btn btn-outline-light"
@@ -188,13 +210,13 @@
     >
       <div class="content">
         <!-- Main Heading for English -->
-        <h1 id="main-heading-en" class="translate-en">Hello</h1>
+        <h1 id="main-heading-en" class="translate-en d-none">Hello</h1>
 
         <!-- Main Heading for Arabic -->
         <h1 id="main-heading-ar" class="translate-ar">مرحبــاً</h1>
         <!-- Dynamic Text with Accessibility for English -->
         <p
-          class="typed fw-lighter mb-5 translate-en"
+          class="typed fw-lighter mb-5 translate-en d-none"
           aria-live="polite"
           role="status"
         >
@@ -260,7 +282,7 @@
           <div class="d-flex gap-2 justify-content-center">
             <!-- Phone Call Button -->
             <a
-              href="tel:+1234567890"
+              href="tel:+0096596930778"
               class="btn btn-light d-flex align-items-center p-2 mt-2"
               title="اتصل بي"
               aria-label="اتصل بي"
@@ -271,7 +293,7 @@
 
             <!-- WhatsApp Button -->
             <a
-              href="https://wa.me/1234567890"
+              href="https://wa.me/+96596930778"
               class="btn btn-outline-light d-flex align-items-center p-2 mt-2"
               title="الدردشة عبر واتساب"
               aria-label="الدردشة عبر واتساب"
@@ -281,11 +303,11 @@
             </a>
           </div>
         </div>
-        <div class="mt-4 translate-en">
+        <div class="mt-4 translate-en d-none">
           <div class="d-flex gap-2 justify-content-center">
             <!-- Phone Call Button -->
             <a
-              href="tel:+1234567890"
+              href="tel:+0096596930778"
               class="btn btn-light d-flex align-items-center p-2 mt-2"
               title="Call Me"
               aria-label="Call Me"
@@ -296,7 +318,7 @@
 
             <!-- WhatsApp Button -->
             <a
-              href="https://wa.me/1234567890"
+              href="https://wa.me/+96596930778"
               class="btn btn-outline-light d-flex align-items-center p-2 mt-2"
               title="Chat on WhatsApp"
               aria-label="Chat on WhatsApp"
@@ -317,7 +339,7 @@
     <section id="about" class="py-5">
       <!-- English -->
       <div
-        class="container translate-en"
+        class="container translate-en d-none"
         aria-labelledby="about-me-heading"
         role="region"
       >
@@ -395,7 +417,7 @@
             <div class="contact-buttons mt-4 d-flex gap-2">
               <!-- Phone Call Button -->
               <a
-                href="tel:+1234567890"
+                href="tel:+0096596930778"
                 class="btn btn-secondary d-flex align-items-center p-2 mt-2"
                 title="Call Me"
                 aria-label="Call Me"
@@ -406,7 +428,7 @@
 
               <!-- WhatsApp Button -->
               <a
-                href="https://wa.me/1234567890"
+                href="https://wa.me/+96596930778"
                 class="btn btn-outline-secondary d-flex align-items-center p-2 mt-2"
                 title="Chat on WhatsApp"
                 aria-label="Chat on WhatsApp"
@@ -498,7 +520,7 @@
             <div class="contact-buttons mt-4 d-flex gap-2">
               <!-- Phone Call Button -->
               <a
-                href="tel:+1234567890"
+                href="tel:+0096596930778"
                 class="btn btn-secondary d-flex align-items-center p-2 mt-2"
                 title="اتصل بي"
                 aria-label="اتصل بي"
@@ -509,7 +531,7 @@
 
               <!-- WhatsApp Button -->
               <a
-                href="https://wa.me/1234567890"
+                href="https://wa.me/+96596930778"
                 class="btn btn-outline-secondary d-flex align-items-center p-2 mt-2"
                 title="الدردشة عبر واتساب"
                 aria-label="الدردشة عبر واتساب"
@@ -530,7 +552,7 @@
     <!-- English -->
     <section id="services" class="py-5">
       <div
-        class="translate-en"
+        class="translate-en d-none"
         role="region"
         aria-labelledby="services-heading"
         tabindex="0"
@@ -1117,7 +1139,14 @@
       <div class="translate-eiun">
         <!-- **/ Head \** -->
         <div class="head">
-          <h2 class="text-secondary text-capitalize mx-auto">Our Work</h2>
+          <h2
+            class="text-secondary text-capitalize mx-auto translate-en d-none"
+          >
+            Our Work.
+          </h2>
+          <h2 class="text-secondary text-capitalize mx-auto translate-ar">
+            .أعمالنا
+          </h2>
         </div>
         <!-- **/ Head \** -->
 
@@ -1125,14 +1154,12 @@
         <div class="container mt-6">
           <!-- |=| Btns Filteration |=| -->
           <ul
-            class="nav nav-tabs filter-btns justify-content-center border-0"
-            id="myTab"
+            class="nav nav-tabs filter-btns justify-content-center border-0 translate-en d-none"
             role="tablist"
           >
             <li class="nav-item p-3" role="presentation">
               <button
                 class="nav-link text-secondary border-0 fw-bold p-0 position-relative active"
-                id="all-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#all"
                 type="button"
@@ -1146,7 +1173,6 @@
             <li class="nav-item p-3" role="presentation">
               <button
                 class="nav-link text-secondary border-0 fw-bold p-0 position-relative"
-                id="finishing-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#finishing"
                 type="button"
@@ -1160,7 +1186,6 @@
             <li class="nav-item p-3" role="presentation">
               <button
                 class="nav-link text-secondary border-0 fw-bold p-0 position-relative"
-                id="painting-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#painting"
                 type="button"
@@ -1174,7 +1199,6 @@
             <li class="nav-item p-3" role="presentation">
               <button
                 class="nav-link text-secondary border-0 fw-bold p-0 position-relative"
-                id="dyer-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#dyer"
                 type="button"
@@ -1186,6 +1210,64 @@
               </button>
             </li>
           </ul>
+          <ul
+            class="nav nav-tabs filter-btns justify-content-center border-0 translate-ar"
+            role="tablist"
+          >
+            <li class="nav-item p-3" role="presentation">
+              <button
+                class="nav-link text-secondary border-0 fw-bold p-0 position-relative active"
+                data-bs-toggle="tab"
+                data-bs-target="#all"
+                type="button"
+                role="tab"
+                aria-controls="all"
+                aria-selected="true"
+              >
+                جميع المشاريع
+              </button>
+            </li>
+            <li class="nav-item p-3" role="presentation">
+              <button
+                class="nav-link text-secondary border-0 fw-bold p-0 position-relative"
+                data-bs-toggle="tab"
+                data-bs-target="#finishing"
+                type="button"
+                role="tab"
+                aria-controls="finishing"
+                aria-selected="false"
+              >
+                التشطيبات
+              </button>
+            </li>
+            <li class="nav-item p-3" role="presentation">
+              <button
+                class="nav-link text-secondary border-0 fw-bold p-0 position-relative"
+                data-bs-toggle="tab"
+                data-bs-target="#painting"
+                type="button"
+                role="tab"
+                aria-controls="painting"
+                aria-selected="false"
+              >
+                الدهانات
+              </button>
+            </li>
+            <li class="nav-item p-3" role="presentation">
+              <button
+                class="nav-link text-secondary border-0 fw-bold p-0 position-relative"
+                data-bs-toggle="tab"
+                data-bs-target="#dyer"
+                type="button"
+                role="tab"
+                aria-controls="dyer"
+                aria-selected="false"
+              >
+                النقاش
+              </button>
+            </li>
+          </ul>
+
           <!-- |=| Btns Filteration |=| -->
 
           <!-- |=| Filtered Content |=| -->
@@ -1683,7 +1765,9 @@
       <div class="mt-4">
         <!-- **/ Head \** -->
         <div class="head">
-          <h2 class="text-secondary text-capitalize mx-auto translate-en">
+          <h2
+            class="text-secondary text-capitalize mx-auto translate-en d-none"
+          >
             testimonials.
           </h2>
           <h2 class="text-secondary text-capitalize mx-auto translate-ar">
@@ -1803,7 +1887,9 @@
           <div class="fact">
             <i class="fa fa-2x fa-users"></i>
             <h3 class="my-4 fs-1">250</h3>
-            <p class="text-muted fw-bold translate-en">Happy Customers.</p>
+            <p class="text-muted fw-bold translate-en d-none">
+              Happy Customers.
+            </p>
             <p class="text-muted fw-bold translate-ar">.العملاء</p>
           </div>
 
@@ -1811,7 +1897,9 @@
           <div class="fact">
             <i class="fa fa-2x fa-thumbs-up"></i>
             <h3 class="my-4 fs-1">230</h3>
-            <p class="text-muted fw-bold translate-en">Complete Projects.</p>
+            <p class="text-muted fw-bold translate-en d-none">
+              Complete Projects.
+            </p>
             <p class="text-muted fw-bold translate-ar">.المشاريع المكتمله</p>
           </div>
         </div>
@@ -1978,7 +2066,7 @@
     <section id="contact" class="py-5">
       <!-- **/ Head \** -->
       <div class="head">
-        <h2 class="text-secondary text-capitalize mx-auto translate-en">
+        <h2 class="text-secondary text-capitalize mx-auto translate-en d-none">
           Contact Us.
         </h2>
         <h2 class="text-secondary text-capitalize mx-auto translate-ar">
@@ -2030,13 +2118,15 @@
 
               <div>
                 <a
-                  href="tel:+9504545455"
+                  href="tel:+0096596930778"
                   class="icon-container rounded-circle flex-center mx-auto"
                 >
                   <i class="fa fa-phone"></i>
                 </a>
                 <h6 class="fw-bold my-3">Call Us</h6>
-                <a href="tel:+9504545455" class="text-muted">+9504545455</a>
+                <a href="tel:+0096596930778" class="text-muted"
+                  >+0096596930778</a
+                >
               </div>
             </div>
           </div>
@@ -2062,7 +2152,9 @@
 
     <!-- Start Footer -->
     <footer class="pt-5 flex-center flex-column">
-      <h1 class="translate-en text-light">El-Hassan Apartments Finishing.</h1>
+      <h1 class="translate-en d-none text-light">
+        El-Hassan Apartments Finishing.
+      </h1>
       <h1 class="translate-ar text-light">.ال-حسن للتشطيب</h1>
 
       <div class="translate-ar">
@@ -2103,7 +2195,7 @@
         </ul>
       </div>
 
-      <div class="translate-en">
+      <div class="translate-en d-none">
         <ul
           class="navbar-nav d-flex flex-row gap-4 text-capitalize text-center fw-bold"
           role="navigation"
@@ -2143,7 +2235,7 @@
 
       <div class="social d-flex justify-content-center mt-4">
         <a
-          href="https://wa.me/201098575265"
+          href="https://wa.me/+96596930778"
           class="flex-center text-white rounded-circle mx-1"
           title="Connect with me on WhatsApp"
           target="_blank"
@@ -2153,7 +2245,7 @@
           <i class="fa-brands fa-whatsapp"></i>
         </a>
         <a
-          href="tel:+201098575265"
+          href="tel:+0096596930778"
           class="flex-center text-white rounded-circle mx-1"
           title="Call Me"
           style="--bs-primary: #28a745"

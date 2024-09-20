@@ -1,21 +1,33 @@
+// Get all elements with class 'translate-en' or 'translate-ar'
+const elementsEn = document.querySelectorAll('.translate-en');
+const elementsAr = document.querySelectorAll('.translate-ar');
+
 function setLanguage(lang) {
-    // Get all elements with class 'translate-en' or 'translate-ar'
-    const elementsEn = document.querySelectorAll('.translate-en');
-    const elementsAr = document.querySelectorAll('.translate-ar');
-    
-    // Toggle visibility based on the selected language
+    // Toggle visibility based on the selected language using classList to add/remove 'd-none'
     if (lang === 'en') {
-        elementsEn.forEach(el => el.style.display = 'block');
-        elementsAr.forEach(el => el.style.display = 'none');
+        elementsEn.forEach(el => el.classList.remove('d-none'));
+        elementsAr.forEach(el => el.classList.add('d-none'));
+        document.title = "EL Hassan Appartments Finishing"
+
     } else if (lang === 'ar') {
-        elementsEn.forEach(el => el.style.display = 'none');
-        elementsAr.forEach(el => el.style.display = 'block');
+        elementsEn.forEach(el => el.classList.add('d-none'));
+        elementsAr.forEach(el => el.classList.remove('d-none'));
+        document.title = "الحسن للتشطيبات"
     }
 }
 
-const btnArabic = document.getElementById("btn-arabic")
-    , btnEnglish = document.getElementById("btn-english");
+// Get both pairs of buttons
+const btnArabic = document.getElementById("btn-arabic"),
+    btnEnglish = document.getElementById("btn-english"),
+    btnArabic2 = document.getElementById("btn-arabic2"),
+    btnEnglish2 = document.getElementById("btn-english2");
 
-btnArabic.addEventListener("click", () => setLanguage("ar"))
-btnEnglish.addEventListener("click", () => setLanguage("en"))
-setLanguage("ar")
+// Event listeners for language buttons
+btnArabic.addEventListener("click", () => setLanguage("ar"));
+btnEnglish.addEventListener("click", () => setLanguage("en"));
+
+btnArabic2.addEventListener("click", () => setLanguage("ar"));
+btnEnglish2.addEventListener("click", () => setLanguage("en"));
+
+// Set initial language to Arabic
+setLanguage("ar");
