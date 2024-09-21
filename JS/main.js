@@ -31,3 +31,11 @@ btnEnglish2.addEventListener("click", () => setLanguage("en"));
 
 // Set initial language to Arabic
 setLanguage("ar");
+
+
+
+// floating menu
+document.getElementById('fabButton').addEventListener('click', function() {
+    document.querySelector('.fab-container').classList.toggle('active');
+  });
+  
