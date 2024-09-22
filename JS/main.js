@@ -35,7 +35,11 @@ setLanguage("ar");
 
 
 // floating menu
-document.getElementById('fabButton').addEventListener('click', function() {
+document.getElementById('fabButton').addEventListener('click', function () {
     document.querySelector('.fab-container').classList.toggle('active');
-  });
-  
+});
+
+document.querySelectorAll("#portfolio .tab-content .port")
+    .forEach((i) => i.addEventListener("click", _ =>
+        i.classList.contains("active") ? i.classList.remove("active") :
+            i.classList.add("active")))

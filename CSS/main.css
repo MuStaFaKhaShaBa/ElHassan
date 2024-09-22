@@ -130,7 +130,6 @@ a {
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-
 /* --------------------- End Nav Bar -------------------- */
 .navbar {
   box-shadow: 0px 30px 50px rgb(0 0 0 / 20%);
@@ -187,7 +186,7 @@ a {
   .navbar-nav .nav-link::before {
     transform: translateY(2.5rem);
   }
-  .navbar-nav .nav-link{
+  .navbar-nav .nav-link {
     font-size: 1.5rem;
   }
 }
@@ -269,7 +268,7 @@ a {
   width: 25px;
   height: 25px;
 
-  font-size: 0.6rem;
+  font-size: 0.75rem;
 }
 .social a:hover {
   background-color: var(--bs-primary);
@@ -356,7 +355,8 @@ a {
   left: 0;
   z-index: -1;
 }
-#services .service {
+#services .service,
+#contact .contact {
   box-shadow: 0px 10px 30px -8px rgb(0 0 0 / 10%);
 }
 .icon-container {
@@ -370,7 +370,8 @@ a {
   font-size: 1.7rem;
   transition: var(--transition-icon);
 }
-#services .service p {
+#services .service p,
+#contact .contact p {
   font-size: 0.9rem;
 }
 div:hover > .icon-container {
@@ -381,10 +382,12 @@ div:hover > .icon-container svg {
 }
 
 @media screen and (max-width: 768px) {
-  #services .service h3 {
+  #services .service h3,
+  #contact .contact h6 {
     font-size: 1.8rem !important;
   }
-  #services .service p {
+  #services .service p,
+  #contact .contact .text-address {
     font-size: 1.5rem;
   }
 }
@@ -407,13 +410,14 @@ div:hover > .icon-container svg {
   width: 100%;
 }
 #portfolio .tab-content .port .content {
-  width: 97%;
+  width: 98.5%;
   height: 97%;
   background-color: #fffffff1;
   gap: 10px;
   opacity: 0;
   transition: 0.5s;
 }
+#portfolio .tab-content .port.active .content,
 #portfolio .tab-content .port:hover .content {
   opacity: 1;
   gap: 0;
@@ -517,51 +521,11 @@ div:hover > .icon-container svg {
 }
 /* -----------------     End Fun Fucts Section  ------------------- */
 
-/* -----------------      Start Blog Section -------------------- */
-#blog {
+/* -----------------      Start Contact Section -------------------- */
+#contact {
   background-color: var(--bg-color);
 }
-#blog .carousel-control-next,
-#blog .carousel-control-prev {
-  width: 10px;
-  height: 10px;
-  background-color: #6c757d;
-  bottom: -150px;
-}
-#blog .carousel-control-prev {
-  transform: translate(-10px, 20px);
-}
-#blog .carousel-control-next {
-  transform: translate(10px, 10px);
-}
-.card {
-  box-shadow: 0px 10px 30px -8px rgb(0 0 0 / 10%);
-}
-.card a {
-  transition: var(--transition-anchor);
-  border-bottom: 2px solid #6c757d;
-}
-.card img {
-  transition: var(--transition-anchor);
-}
-.card:hover img {
-  transform: scale(1.2) rotate(5deg);
-}
-.card .card-body p {
-  font-size: 0.8rem;
-  font-weight: 700;
-}
-.card a:hover {
-  color: var(--bs-primary) !important;
-  border-color: var(--bs-primary);
-}
-/* -----------------       End Blog Section --------------------- */
 
-/* -----------------      Start Contact Section -------------------- */
-#contact .row {
-  width: 80%;
-  margin-inline: auto;
-}
 #contact .icon-container {
   width: 3.5rem;
   height: 3.5rem;
@@ -594,10 +558,12 @@ div:hover > .icon-container svg {
 
 #contact .map-container iframe {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; /* Full height */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1rem solid var(--bs-white);
+  width: 90%;
+  height: 90%; /* Full height */
 }
 
 #contact button {
@@ -608,17 +574,7 @@ div:hover > .icon-container svg {
   background-color: #fff;
   color: var(--bs-secondary);
 }
-@media screen and (max-width: 992px) {
-  #contact .row {
-    width: 100%;
-  }
-  #contact form .row div input {
-    width: 100%;
-  }
-  #contact .info h6 {
-    font-size: 2rem;
-  }
-}
+
 /* -----------------       End Contact Section       --------------- */
 
 /* -----------------      Start Footer Section       --------------- */
