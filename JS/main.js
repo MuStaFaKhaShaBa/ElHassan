@@ -7,12 +7,12 @@ function setLanguage(lang) {
     if (lang === 'en') {
         elementsEn.forEach(el => el.classList.remove('d-none'));
         elementsAr.forEach(el => el.classList.add('d-none'));
-        document.title = "EL Hassan Appartments Finishing"
+        document.title = "The cheapest painting and professional finishing in Kuwait - Al Hassan for Finishing."
 
     } else if (lang === 'ar') {
         elementsEn.forEach(el => el.classList.add('d-none'));
         elementsAr.forEach(el => el.classList.remove('d-none'));
-        document.title = "الحسن للتشطيبات"
+        document.title = "أرخص صباغة وتشطيب احترافي بالكويت - ال حسن للتشطيبات"
     }
 }
 
