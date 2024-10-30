@@ -513,6 +513,13 @@ div:hover > .icon-container svg {
     max-width: 100%;
   }
 }
+.author-img img {
+  width: 120px; /* Set your desired width */
+  height: 120px; /* Set your desired height */
+  object-fit: cover; /* This ensures the image covers the entire area */
+  border-radius: 50%; /* This makes the image circular */
+}
+
 /* -----------------       End Testimonial Section --------------------- */
 
 /* -----------------    Start Fun Facts Section ------------------- */
