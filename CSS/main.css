@@ -418,8 +418,8 @@ div:hover > .icon-container svg {
   opacity: 0;
   transition: 0.5s;
 }
-#portfolio .tab-content .port.active .content,
-#portfolio .tab-content .port:hover .content {
+/* #portfolio .tab-content .port:hover .content, */
+#portfolio .tab-content .port.active .content {
   opacity: 1;
   gap: 0;
 }
