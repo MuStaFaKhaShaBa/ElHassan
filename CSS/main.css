@@ -306,6 +306,18 @@ a {
 #about .skills-rate .progress-bar span::after {
   content: attr(data-rate);
 }
+.fade-image {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 2s ease; /* Adjust duration for fade effect */
+}
+
+.fade-image.show {
+  opacity: 1;
+  position: relative;
+}
 #about button,
 #contact button {
   transition: var(--transition-icon);
