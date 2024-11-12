@@ -228,10 +228,17 @@ a {
 
 /* ---- Start Content ---- */
 #home .content {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 #home .content h1 {
-  font-size: 4.5rem;
+  font-size: 2rem;
+  color: var(--bs-gray-200);
+  width: 70%;
+  text-align: center;
 }
 #home .content .typed.translate-ar,
 #home .content .typed.translate-en {
