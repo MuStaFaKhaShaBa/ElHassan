@@ -1,21 +1,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- URL Entry for Homepage -->
   <url>
     <loc>https://elhassan-dyer.com/</loc>
+    <lastmod>2024-11-13</lastmod>
+    
     <image:image>
       <image:loc>https://elhassan-dyer.com/img/kuwait-home-finishing-painting-service.png</image:loc>
       <image:caption>أفضل صباغ بالكويت - خدمات التشطيبات والدهانات</image:caption>
-      <image:title>الحسين للتشطيبات في الكويت</image:title>
+      <image:title>صباغ - صباغ رخيص - صباغ شاطر ورخيص - بالكويت 96930778 - صباغ رخيص بالكويت - رقم صباغ رخيص - صباغ ورق جدران - صباغ الكويت رخيص - صباغ هندي - أفضل وأحسن وأشطر صباغ بالكويت - صباغ ماهر - الحسين للتشطيبات</image:title>
     </image:image>
+
     <image:image>
       <image:loc>https://elhassan-dyer.com/img/best-painter-kuwait.png</image:loc>
       <image:caption>أفضل صباغ في الكويت - الحسين للتشطيبات</image:caption>
-      <image:title>الحسين للتشطيبات في الكويت</image:title>
+      <image:title>صباغ - صباغ رخيص - صباغ شاطر ورخيص - بالكويت 96930778 - صباغ رخيص بالكويت - رقم صباغ رخيص - صباغ ورق جدران - صباغ الكويت رخيص - صباغ هندي - أفضل وأحسن وأشطر صباغ بالكويت - صباغ ماهر - الحسين للتشطيبات</image:title>
     </image:image>
+
     <image:image>
       <image:loc>https://elhassan-dyer.com/img/painter-kuwait-advertisement.png</image:loc>
       <image:caption>أفضل صباغ في الكويت - الحسين للتشطيبات</image:caption>
-      <image:title>الحسين للتشطيبات في الكويت</image:title>
+      <image:title>صباغ - صباغ رخيص - صباغ شاطر ورخيص - بالكويت 96930778 - صباغ رخيص بالكويت - رقم صباغ رخيص - صباغ ورق جدران - صباغ الكويت رخيص - صباغ هندي - أفضل وأحسن وأشطر صباغ بالكويت - صباغ ماهر - الحسين للتشطيبات</image:title>
     </image:image>
   </url>
+
 </urlset>
