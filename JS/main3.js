@@ -12,7 +12,7 @@ function setLanguage(lang) {
     } else if (lang === 'ar') {
         elementsEn.forEach(el => el.classList.add('d-none'));
         elementsAr.forEach(el => el.classList.remove('d-none'));
-        document.title = `صباغ ورق جدران تركيب ورق جدران خصم %50 - اتصل بنا الأن 96616761`;
+        document.title = `صباغ ورق جدران | تركيب ورق جدران خصم %50 | اتصل بنا الأن 96616761 | صباغ بالكويت | صباغ زين الكويت | صباغ هندي الكويت`;
     }
 }
 
