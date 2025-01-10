@@ -4,7 +4,7 @@
   <!-- URL Entry for Homepage -->
   <url>
     <loc>https://elhassan-dyer.com/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>202510</lastmod>
     
     <!-- Image 1: Homepage -->
     <image:image>
@@ -31,7 +31,7 @@
   <!-- URL Entry for Best Dyer Page -->
   <url>
     <loc>https://elhassan-dyer.com/best.html</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>202510</lastmod>
     
     <!-- Image 1: Best Dyer -->
     <image:image>
@@ -58,7 +58,7 @@
   <!-- URL Entry for Discount Dyer Page -->
   <url>
     <loc>https://elhassan-dyer.com/discount-dyer.html</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>202510</lastmod>
     
     <!-- Image 1: Discount Dyer -->
     <image:image>
@@ -83,6 +83,6 @@
   </url>
    <url>
     <loc>https://elhassan-dyer.com/used-furniture/</loc>
-    <lastmod>2025-01-09</lastmod>
+    <lastmod>2025-01-10</lastmod>
     </url>
 </urlset>
