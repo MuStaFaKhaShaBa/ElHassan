@@ -1,15 +1,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
   <!-- URL Entry for Homepage -->
   <url>
     <loc>https://elhassan-dyer.com/</loc>
     <lastmod>2025-01-09</lastmod>
-    
+
     <!-- Image 1: Homepage -->
     <image:image>
       <image:loc>https://elhassan-dyer.com/img/kuwait-home-finishing-painting-service.png</image:loc>
-      <image:caption>دهانات وتشطيبات المنازل في الكويت مع أفضل صباغ متخصص في تنفيذ جميع أنواع الدهانات بتصاميم حديثة</image:caption>
+      <image:caption>دهانات وتشطيبات المنازل في الكويت مع أفضل صباغ متخصص في تنفيذ جميع أنواع
+        الدهانات بتصاميم حديثة</image:caption>
       <image:title>خدمة تشطيبات المنازل والدهانات المبتكرة في الكويت - صباغ محترف</image:title>
     </image:image>
 
@@ -32,7 +33,7 @@
   <url>
     <loc>https://elhassan-dyer.com/best.html</loc>
     <lastmod>2025-01-09</lastmod>
-    
+
     <!-- Image 1: Best Dyer -->
     <image:image>
       <image:loc>https://elhassan-dyer.com/img/kuwait-home-finishing-painting-service.png</image:loc>
@@ -59,7 +60,7 @@
   <url>
     <loc>https://elhassan-dyer.com/discount-dyer.html</loc>
     <lastmod>2025-01-09</lastmod>
-    
+
     <!-- Image 1: Discount Dyer -->
     <image:image>
       <image:loc>https://elhassan-dyer.com/img/kuwait-home-finishing-painting-service.png</image:loc>
@@ -81,8 +82,5 @@
       <image:title>إعلان خصومات مذهلة على دهانات الجدران في الكويت</image:title>
     </image:image>
   </url>
-   <url>
-    <loc>https://elhassan-dyer.com/used-furniture/</loc>
-    <lastmod>2025-01-10</lastmod>
-    </url>
+
 </urlset>
