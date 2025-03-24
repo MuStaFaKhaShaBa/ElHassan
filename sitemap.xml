@@ -9,23 +9,49 @@
     <!-- Image 1: Homepage -->
     <image:image>
       <image:loc>https://elhassan-dyer.com/img/kuwait-home-finishing-painting-service.png</image:loc>
-      <image:caption>دهانات وتشطيبات المنازل في الكويت مع أفضل صباغ متخصص في تنفيذ جميع أنواع
-        الدهانات بتصاميم حديثة</image:caption>
-      <image:title>خدمة تشطيبات المنازل والدهانات المبتكرة في الكويت - صباغ محترف</image:title>
+      <image:caption>فريق صباغين محترفين في الكويت متخصص في تشطيبات المنازل والفلل بأحدث تقنيات الدهان</image:caption>
+      <image:title>خدمات دهانات المنازل الكويتية باحترافية وجودة عالية</image:title>
     </image:image>
 
     <!-- Image 2: Homepage -->
     <image:image>
       <image:loc>https://elhassan-dyer.com/img/best-painter-kuwait.png</image:loc>
-      <image:caption>أفضل صباغ بالكويت يقدم خدمات دهانات عالية الجودة مع ضمان الأسعار المناسبة</image:caption>
-      <image:title>أفضل صباغ بالكويت - تشطيبات احترافية وضمان الجودة</image:title>
+      <image:caption>أعمال دهان وتشطيب مميزة بأسعار مناسبة مع ضمان الجودة لمدة عام</image:caption>
+      <image:title>خبراء الدهانات الداخلية والخارجية في الكويت</image:title>
     </image:image>
 
     <!-- Image 3: Homepage -->
     <image:image>
       <image:loc>https://elhassan-dyer.com/img/painter-kuwait-advertisement.png</image:loc>
-      <image:caption>إعلان عن خدمات الدهانات في الكويت بأسعار مخفضة وجودة لا تضاهى</image:caption>
-      <image:title>دهانات احترافية في الكويت - أسعار تنافسية وعروض خاصة</image:title>
+      <image:caption>عروض خاصة على خدمات تركيب ورق الجدران ثلاثي الأبعاد بأسعار تنافسية</image:caption>
+      <image:title>أحدث تصاميم ورق الجدران والديكورات في الكويت</image:title>
+    </image:image>
+  </url>
+
+  <!-- URL Entry for Jahra Page -->
+  <url>
+    <loc>https://elhassan-dyer.com/jahra-dyer.html</loc>
+    <lastmod>2025-03-24</lastmod>
+
+    <!-- Image 1: Jahra Page -->
+    <image:image>
+      <image:loc>https://elhassan-dyer.com/img/kuwait-home-finishing-painting-service.png</image:loc>
+      <image:caption>خدمات صباغة شاملة في منطقة الجهراء مع خصومات تصل إلى 30% على الدهانات الفاخرة</image:caption>
+      <image:title>صباغ الجهراء المحترف - تشطيبات عصرية بجودة ممتازة</image:title>
+    </image:image>
+
+    <!-- Image 2: Jahra Page -->
+    <image:image>
+      <image:loc>https://elhassan-dyer.com/img/best-painter-kuwait.png</image:loc>
+      <image:caption>أعمال ديكورات جبس بورد ودهانات مائية في الجهراء بأيدي فنيين مهرة</image:caption>
+      <image:title>تركيب ديكورات الجبس بورد والدهانات الحديثة بالجهراء</image:title>
+    </image:image>
+
+    <!-- Image 3: Jahra Page -->
+    <image:image>
+      <image:loc>https://elhassan-dyer.com/img/painter-kuwait-advertisement.png</image:loc>
+      <image:caption>عروض صباغة المنازل الجديدة في الجهراء مع مواد أوروبية عالية الجودة</image:caption>
+      <image:title>خدمات تجديد الدهانات للمنازل القديمة في الجهراء</image:title>
     </image:image>
   </url>
 
