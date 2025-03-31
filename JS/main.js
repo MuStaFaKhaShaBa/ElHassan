@@ -1,37 +1,37 @@
-// Get all elements with class 'translate-en' or 'translate-ar'
-const elementsEn = document.querySelectorAll('.translate-en');
-const elementsAr = document.querySelectorAll('.translate-ar');
+// // Get all elements with class 'translate-en' or 'translate-ar'
+// const elementsEn = document.querySelectorAll('.translate-en');
+// const elementsAr = document.querySelectorAll('.translate-ar');
 
-function setLanguage(lang) {
-    // Toggle visibility based on the selected language using classList to add/remove 'd-none'
-    if (lang === 'en') {
-        elementsEn.forEach(el => el.classList.remove('d-none'));
-        elementsAr.forEach(el => el.classList.add('d-none'));
-        document.title = "The cheapest painting and professional finishing in Kuwait - Al Hussien for Finishing."
+// function setLanguage(lang) {
+//     // Toggle visibility based on the selected language using classList to add/remove 'd-none'
+//     if (lang === 'en') {
+//         elementsEn.forEach(el => el.classList.remove('d-none'));
+//         elementsAr.forEach(el => el.classList.add('d-none'));
+//         document.title = "The cheapest painting and professional finishing in Kuwait - Al Hussien for Finishing."
 
-    } else if (lang === 'ar') {
-        elementsEn.forEach(el => el.classList.add('d-none'));
-        elementsAr.forEach(el => el.classList.remove('d-none'));
-        document.title = `صباغ الكويت ✔️🇰🇼  خصم 50%  صبغ بدون ريحه جوتن - اتصل الأن 96616761  - صباغ شاطر - صباغ - رقم صباغ - صباغ ورق جدران - أشطر صباغ بالكويت - أحسن صباغ بالكويت - أفضل صباغ بالكويت - صباغ ماهر - المهدي للتشطيبات`;
+//     } else if (lang === 'ar') {
+//         elementsEn.forEach(el => el.classList.add('d-none'));
+//         elementsAr.forEach(el => el.classList.remove('d-none'));
+//         document.title = `صباغ الكويت ✔️🇰🇼  خصم 50%  صبغ بدون ريحه جوتن - اتصل الأن 96616761  - صباغ شاطر - صباغ - رقم صباغ - صباغ ورق جدران - أشطر صباغ بالكويت - أحسن صباغ بالكويت - أفضل صباغ بالكويت - صباغ ماهر - المهدي للتشطيبات`;
 
-    }
-}
+//     }
+// }
 
-// Get both pairs of buttons
-const btnArabic = document.getElementById("btn-arabic"),
-    btnEnglish = document.getElementById("btn-english"),
-    btnArabic2 = document.getElementById("btn-arabic2"),
-    btnEnglish2 = document.getElementById("btn-english2");
+// // Get both pairs of buttons
+// const btnArabic = document.getElementById("btn-arabic"),
+//     btnEnglish = document.getElementById("btn-english"),
+//     btnArabic2 = document.getElementById("btn-arabic2"),
+//     btnEnglish2 = document.getElementById("btn-english2");
 
-// Event listeners for language buttons
-btnArabic.addEventListener("click", () => setLanguage("ar"));
-btnEnglish.addEventListener("click", () => setLanguage("en"));
+// // Event listeners for language buttons
+// btnArabic.addEventListener("click", () => setLanguage("ar"));
+// btnEnglish.addEventListener("click", () => setLanguage("en"));
 
-btnArabic2.addEventListener("click", () => setLanguage("ar"));
-btnEnglish2.addEventListener("click", () => setLanguage("en"));
+// btnArabic2.addEventListener("click", () => setLanguage("ar"));
+// btnEnglish2.addEventListener("click", () => setLanguage("en"));
 
-// Set initial language to Arabic
-setLanguage("ar");
+// // Set initial language to Arabic
+// setLanguage("ar");
 
 
 
@@ -72,3 +72,5 @@ setInterval(() => {
   currentIndex = (currentIndex + 1) % images.length;
   showImage(currentIndex);
 }, 5000); // Change 3000 to your desired interval in milliseconds
+
+
