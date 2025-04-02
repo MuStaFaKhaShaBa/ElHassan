@@ -30,62 +30,23 @@
     </image:image>
   </url>
 
-  <!-- URL Entry for Jahra Page (Primary) -->
-  <url>
-    <loc>https://elhassan-dyer.com/jahra-dyer.html</loc>
-    <lastmod>2025-03-24</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-
-    <!-- Image 1: Jahra Page -->
-    <image:image>
-      <image:loc>https://elhassan-dyer.com/img/kuwait-home-finishing-painting-service.webp</image:loc>
-      <image:caption>صباغة منازل الجهراء بمواد ألمانية عالية الجودة - خصومات 30% على الدهانات الفاخرة</image:caption>
-      <image:title>أفضل صباغ في الجهراء | تشطيبات عصرية بمواصفات أوروبية</image:title>
-    </image:image>
-
-    <!-- Image 2: Jahra Page -->
-    <image:image>
-      <image:loc>https://elhassan-dyer.com/img/best-painter-kuwait.webp</image:loc>
-      <image:caption>تركيب ديكورات جبس بورد مخصصة في الجهراء - تصاميم فريدة مقاومة للرطوبة</image:caption>
-      <image:title>فني ديكورات جبس بورد محترف في منطقة الجهراء</image:title>
-    </image:image>
-
-    <!-- Image 3: Jahra Page -->
-    <image:image>
-      <image:loc>https://elhassan-dyer.com/img/painter-kuwait-advertisement.webp</image:loc>
-      <image:caption>تجديد دهانات المنازل القديمة في الجهراء - معالجة التشققات وإصلاح العيوب قبل الصباغة</image:caption>
-      <image:title>خدمات صيانة وتجديد الدهانات لمنازل الجهراء</image:title>
-    </image:image>
-  </url>
-
   <!-- URL Entry for Dyer Page (Secondary) -->
   <url>
-    <loc>https://elhassan-dyer.com/dyer.html</loc>
-    <lastmod>2025-03-24</lastmod>
+    <loc>https://elhassan-dyer.com/صباغ.html</loc>
+    <lastmod>2025-04-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 
     <!-- Image 1: Dyer Page -->
-    <image:image>
-      <image:loc>https://elhassan-dyer.com/img/kuwait-home-finishing-painting-service.webp</image:loc>
-      <image:caption>خدمات صباغة متكاملة لسكان الكويت - خصومات خاصة للمقاولين وأصحاب الفلل</image:caption>
-      <image:title>مركز خدمات الدهانات المتخصصة في الكويت</image:title>
-    </image:image>
+  
+  </url>
+  <!-- URL Entry for Dyer Page (Secondary) -->
+  <url>
+    <loc>https://elhassan-dyer.com/صباغ الكويت.html</loc>
+    <lastmod>2025-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
 
-    <!-- Image 2: Dyer Page -->
-    <image:image>
-      <image:loc>https://elhassan-dyer.com/img/best-painter-kuwait.webp</image:loc>
-      <image:caption>أعمال تشطيب مميزة للشقق والمنازل في الكويت - مواد صديقة للبيئة</image:caption>
-      <image:title>حلول دهانات مبتكرة لسكان الكويت</image:title>
-    </image:image>
-
-    <!-- Image 3: Dyer Page -->
-    <image:image>
-      <image:loc>https://elhassan-dyer.com/img/painter-kuwait-advertisement.webp</image:loc>
-      <image:caption>عروض تجديد الدهانات السنوية في الكويت - استعادة جمال منزلك بأقل التكاليف</image:caption>
-      <image:title>عروض صباغة موسمية لسكان الكويت</image:title>
-    </image:image>
   </url>
 
 </urlset>
