@@ -30,32 +30,4 @@
     </image:image>
   </url>
 
- 
-  <!-- URL Entry for Dyer Page (Secondary) -->
-  <url>
-    <loc>https://elhassan-dyer.com/صباغ الكويت.html</loc>
-    <lastmod>2025-04-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-
-  </url>
- 
-  <!-- URL Entry for Dyer Page (Secondary) -->
-  <url>
-    <loc>https://elhassan-dyer.com/صباغ الجهراء/</loc>
-    <lastmod>2025-04-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-
-  </url>
- 
-  <!-- URL Entry for Dyer Page (Secondary) -->
-  <url>
-    <loc>https://elhassan-dyer.com/صباغ الاحمدي/</loc>
-    <lastmod>2025-04-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-
-  </url>
-
 </urlset>
