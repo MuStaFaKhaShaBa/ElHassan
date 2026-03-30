@@ -42,6 +42,15 @@
 
   <!-- URL Entry for Dyer Page (Secondary) -->
   <url>
+    <loc>https://elhassan-dyer.com/best.html</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+
+  </url>
+ 
+ !-- URL Entry for Dyer Page (Secondary) -->
+  <url>
     <loc>https://elhassan-dyer.com/discount-dyer.html</loc>
     <lastmod>2026-03-28</lastmod>
     <changefreq>monthly</changefreq>
